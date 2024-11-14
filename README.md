@@ -8,9 +8,7 @@ Welcome to **ShadowLang**, a minimalist programming language developed entirely 
 - [Grammar Overview](#grammar-overview)
 - [Installation](#installation)
 - [Getting Started](#getting-started)
-- [Examples](#examples)
 - [Acknowledgements](#acknowledgements)
-- [License](#license)
 
 ---
 
@@ -95,3 +93,39 @@ func-def:   KEYWORD: CREATE IDENTIFIER?
             (ARROW: expr)
             (NEWLINE statements KEYWORD: END)
 ```
+## Installation
+
+Since ShadowLang is built with Python, you only need Python installed on your machine.
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/ShadowLang.git
+   cd ShadowLang
+2. Run the main interpreter:
+   ```bash
+   python main.py
+
+## Getting Started
+
+Once installed, you can start writing scripts in ShadowLang or try out examples directly in the interactive interpreter.
+
+### Example: Variable Assignment and Arithmetic
+
+```plaintext
+var x = 5
+var y = 10
+var result = x + y
+```
+###Example: Control Flow and Functions
+
+```plaintext
+CREATE greet(name)
+  PRINT("Hello, " + name)
+END
+
+greet("ShadowLang")
+```
+
+## Acknowledgements
+ShadowLang is inspired by various minimalist languages and scripting environments. Built as a personal project to deepen my understanding of interpreters and language design.

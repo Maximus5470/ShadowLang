@@ -1,6 +1,13 @@
 # ShadowLang
 
+
 Welcome to **ShadowLang**, a minimalist programming language developed entirely in Python. ShadowLang was created with simplicity and flexibility in mind, providing essential functionality for arithmetic, logical operations, and control flow, making it a powerful and intuitive tool for scripting and computation tasks.
+
+**Technologies used:**
+- **Python**
+- **Lexical Analysis**
+- **Parsing**
+- **Interpreter Design**
 
 ## Table of Contents
 

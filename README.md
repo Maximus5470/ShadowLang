@@ -124,7 +124,7 @@ var x = 5
 var y = 10
 var result = x + y
 ```
-###Example: Control Flow and Functions
+### Example: Control Flow and Functions
 
 ```plaintext
 create greet(name)

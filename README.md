@@ -38,8 +38,8 @@ ShadowLang has a simple yet expressive grammar, inspired by Python and other scr
 
 - **Statements**: Consist of expressions separated by newlines.
 - **Expressions**: Support variable declarations, arithmetic and comparison operations, and logical combinations.
-- **Functions**: Defined with the `CREATE` keyword, functions support multiple arguments and return values.
-- **Control Flow**: Includes `IF`, `ELIF`, `ELSE`, `FOR`, and `WHILE` constructs for versatile programming logic.
+- **Functions**: Defined with the `create` keyword, functions support multiple arguments and return values.
+- **Control Flow**: Includes `if`, `elif`, `else`, `for`, and `while` constructs for versatile programming logic.
 
 ### Grammar Rules
 
@@ -107,7 +107,7 @@ Since ShadowLang is built with Python, you only need Python installed on your ma
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/ShadowLang.git
+   git clone https://github.com/Maximus5470/ShadowLang.git
    cd ShadowLang
 2. Run the main interpreter:
    ```bash
@@ -127,9 +127,9 @@ var result = x + y
 ###Example: Control Flow and Functions
 
 ```plaintext
-CREATE greet(name)
-  PRINT("Hello, " + name)
-END
+create greet(name)
+  show("Hello, " + name)
+end
 
 greet("ShadowLang")
 ```

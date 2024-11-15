@@ -1,0 +1,31 @@
+# This is a very useful piece of software
+
+create oopify(prefix) -> prefix + "oop"
+
+create join(elements, separator)
+	var result = ""
+	var l = len(elements)
+
+	for i = 0 to l then
+		var result = result + elements/i
+		if i != l - 1 then var result = result + separator
+	end
+
+	chaos_blast result
+end
+
+create map(elements, func)
+	var new_elements = []
+
+	for i = 0 to len(elements) then
+		add(new_elements, func(elements/i))
+	end
+
+	chaos_blast new_elements
+end
+
+show("Greetings universe!")
+
+for i = 0 to 5 then
+	show(join(map(["l", "sp"], oopify), ", "))
+end
